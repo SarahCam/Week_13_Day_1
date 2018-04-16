@@ -17,11 +17,13 @@ var Films = function(){
 
   var film1 = new Film({
     title: "Now You See Me",
+    genre: "Action",
     actors: ["Woody Harrelson", "Jesse Eisenberg"]
   });
 
   var film2 = new Film({
     title: "Star Wars Episode IV: A New Hope",
+    genre: "Sci-Fi",
     actors: ["Harrison Ford", "Alec Guiness"]
   });
 

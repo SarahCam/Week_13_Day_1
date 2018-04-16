@@ -131,6 +131,7 @@ window.addEventListener('load', app);
 
 var Film = function(options){
   this.title = options.title;
+  this.genre = options.genre;
   this.actors = options.actors;
   this.reviews = options.reviews || [];
 }
@@ -142,6 +143,7 @@ Film.prototype = {
 }
 
 module.exports = Film;
+
 
 /***/ }),
 /* 3 */
@@ -166,11 +168,13 @@ var Films = function(){
 
   var film1 = new Film({
     title: "Now You See Me",
+    genre: "Action",
     actors: ["Woody Harrelson", "Jesse Eisenberg"]
   });
 
   var film2 = new Film({
     title: "Star Wars Episode IV: A New Hope",
+    genre: "Sci-Fi",
     actors: ["Harrison Ford", "Alec Guiness"]
   });
 
@@ -181,6 +185,7 @@ var Films = function(){
 }
 
 module.exports = Films;
+
 
 /***/ }),
 /* 4 */
