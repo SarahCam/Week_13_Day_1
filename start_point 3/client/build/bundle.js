@@ -154,7 +154,7 @@ module.exports = Film;
 var Film = __webpack_require__(2);
 var Review = __webpack_require__(4);
 
-var Films = function(){
+var films = function(){
 
   var review1 = new Review({
     comment: "It's not even a thing. What just happened. I want my life back.",
@@ -186,7 +186,7 @@ var Films = function(){
   return [film1, film2];
 }
 
-module.exports = Films;
+module.exports = films;
 
 
 /***/ }),
